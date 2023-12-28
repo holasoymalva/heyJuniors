@@ -1,0 +1,78 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;500;700;900&family=Epilogue:wght@400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&display=swap');
+@import "variables";
+
+body {
+    font-family: $font-family;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    background-color: $color-group-1;
+}
+
+h1, h2,h3,h4,h5,h6{
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+// class
+.txt{
+    &__white{
+        color: $color-group-1;
+    }
+    &__black{
+        color: $color-group-2;
+    }
+    &__red{
+        color: $color-group-3;
+    }
+    &__grey{
+        color: $color-group-4;
+    }
+    &__wavy{
+        text-decoration: wavy underline;
+    }
+    &__bold{
+        font-weight: 900;
+    }
+    &__light{
+        font-weight: 300;
+    }
+    &__medium{
+        font-weight: 500;
+    }
+    &__regular{
+        font-weight: 400;
+    }
+    &__uppercase{
+        text-transform: uppercase;
+    }
+    &__center{
+        text-align: center;
+    }
+    &__left{
+        text-align: left;
+    }
+    &__right{
+        text-align: right;
+    }
+    &__justify{
+        text-align: justify;
+    }
+    &__italic{
+        font-style: italic;
+    }
+}
+
+.grid{
+    margin: 0px 120px;
+}
+
+@media only screen and (max-width: 768px) {
+    .grid{
+        margin: 0px 30px;
+    }
+}
+
+// ids

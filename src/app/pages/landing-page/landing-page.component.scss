@@ -1,0 +1,12 @@
+@import "variables";
+
+.landing{
+    height: 100vh;
+    background-color: $color-group-1;
+    margin-top: -50px;
+    margin-bottom: 45px;
+    padding-top: 50px;
+    padding-bottom: 45px;
+    display: grid;
+    text-align: center;
+}

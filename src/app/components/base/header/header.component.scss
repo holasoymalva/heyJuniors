@@ -1,6 +1,18 @@
+@import "variables";
+
 header{
     position: sticky;
     top: 0;
     padding: 10px 30px 12px 30px;
     font-size: 20px;
+    background-color: $color-group-1;
+}
+
+a{
+    color: inherit;
+    text-decoration: wavy underline;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

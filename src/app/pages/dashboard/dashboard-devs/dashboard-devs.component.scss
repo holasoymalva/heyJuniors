@@ -1,3 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;500;700;900&family=Epilogue:wght@400;500;600;700;800;900&family=Lato:wght@100;300;400;700;900&display=swap');
+@import "variables";
 
-$font-family: 'Epilogue', sans-serif;
+.dashboard{
+    height: 100vh;
+    background-color: $color-group-1;
+    margin-top: -50px;
+    padding-top: 50px;
+    
+}

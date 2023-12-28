@@ -13,7 +13,6 @@ import { HeaderComponent } from './components/base/header/header.component';
     FooterComponent
   ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
 })
 export class AppComponent {
 }

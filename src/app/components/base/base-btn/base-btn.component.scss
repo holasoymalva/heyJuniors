@@ -1,0 +1,25 @@
+@import "variables";
+
+.btn{
+    background-color: $color-group-1;
+    stroke-width: 4px;
+    stroke: $color-group-2;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 40px;
+    padding: 8px 14px;
+}
+.btn-2{
+    background-color: $color-group-3;
+    stroke-width: 4px;
+    stroke: $color-group-2;
+    color: $color-group-1;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 40px;
+    padding: 8px 14px;
+}
